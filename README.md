@@ -15,3 +15,11 @@ In MABs, an agent simultaneously attempts to acquire new knowledge ("exploration
 It's a classic reinforcement learning problem where we strive to achieve a balance between exploration and exploitation.  If we only explore then we lose out on winning rewards and end of wasting resources and if we only exploit, we are unable to identify options which perform better in the future.
 
 There are many practical applications of multi-armed bandits such as clinical trials, website optimization, adaptive routing in networks, financial portfolio design and many more.
+
+## Contextual Bandits Overview
+
+Contextual Bandits extend the multi-armed bandits by making the decision conditional on the state of the environment. With contextual bandit model, we not only optimize results based on previous actions taken, however, also personalize decision for every situation.
+
+Model observes a context, decides to choose one action from several alternative actions, and observes an outcome of that decision. An outcome defines a reward. The goal is to maximize average reward.
+
+There are many practical applications of contextual bandits, you can choose which content to display to the user, rank advertisements, optimize search results, select the best image to show on the page, and much more.
